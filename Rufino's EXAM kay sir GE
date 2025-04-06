@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Dannler's Site"</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-image: url(about1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        nav {
+            background-color: #061f92;
+            padding: 10px 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            
+        }
+
+        li {
+            display: inline;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+            transition-duration: .3s;
+            padding: 10px 25px;
+        }
+        li a:hover {
+            font-size: 25px;
+            background-color: blue;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .column{
+            flex: 1;
+            margin: 0 -5px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            
+          
+        }
+        .column1{
+            backdrop-filter: blur(10px);
+            margin: 0 -5px;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 20px;
+          
+        }
+        .image-placeholder {
+            margin-bottom: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em  0;
+          width: 400px;
+        }
+        .photo {
+            width: 190px;
+            transition-duration: .5s;
+        }
+        .photo:hover {
+            transform: scale(1.5);
+            width: 190px;
+        }
+        .image {
+            flex-direction: column;
+            display: flex;
+            gap: 10px;
+          width: 330px;
+        }
+        .image img {
+            width: 100px;
+        }
+        p{
+            color: #FBE4D8;
+            font-style: italic;
+        }
+        h2{
+            color: whitesmoke;
+        }
+        b{
+            color: rgb(250, 238, 238);
+        }
+        label{
+            color: rgb(250, 238, 238);
+        }
+        .logo{
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dannler's Site'</h1>
+        <img src="crt logo.png" alt="" class="logo">
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="WebsiteniDannler.html">Home</a></li>
+            <li><a href="WebsiteniDannler.html">More</a></li>
+            <li><a href="WebsiteniDannler.html">About</a></li>
+            <li><a href="WebsiteniDannler.html">Exit</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="column1">
+            <h2>About Me:</h2>
+            <p>Photo of me:</p>
+            <div class="FB_IMG_1743936586842.jpg">
+                <img src="FB_IMG_1743936586842.jpg" alt="Photo of Eliz Dannler C. Rufino" class="photo">
+            </div>
+            <p style="color: #fff;">My Name is Eliz Dannler C. Rufino<br> 1st year course in Bachelor of Science in Information Technology</p>
+            <h2>More Photos</h2>
+            <p>My Pictures</p>
+            <div class="image">
+                <img src="IMG_20250406_185040_735.jpg" alt="Image 1" class="photo">
+                <img src="IMG_20250406_185124_929.jpg" alt="Image 2" class="photo">>
+                <img src="FB_IMG_1743936590594.jpg" alt="Image 3" class="photo">>
+            </div><br>
+            <label for="">Personal Information</label><br>
+            <p><b>Address: </b>Purok 6, Lagare , Cabanatuan City,Nueva Ecija</p><br>
+            <p><b>Age: </b>21 years old</p><br>
+            <p><b>Sex: </b>Male</p><br>
+            <p><b>Height: </b>5'11 ft</p><br>
+            <p><b>Weigth: </b>65 kg</p><br>
+            <p><b>Nationality: </b>Filipino</p>
+            <a href="https://m.youtube.com/watch?v=4KXI9yYKex0&pp=ygULUGFkYWJhIHRha2E%3D">My Favorite Music</a>
+
+        </div>
+
+        <div class="column">
+            <h2>My School</h2>
+            <p>College for Research and Technology</p>
+            <div class="crt">
+                <img src="about1.jpg" alt="College Image" style="width: 330px;" class="photo">>
+            </div>
+            
+            <h2>My Course</h2>
+            <p>Bachelor of Science in Information Technology</p>
+            <div class="image-placeholder">
+                <img src="5.jpg" alt="" style="width: 250px; " class="photo">>
+            </div>
+            <p>A Bachelor of Science in Information Technology (BSIT) is a four-year degree program that prepares students for a career in the technology industry.  The curriculum typically includes subjects in computer science, programming, networking, cybersecurity, and database management.</p>
+<div>
+    
+</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 All Rights CRT creator by Dannler Pogi</p>
+    </footer>
+</body>
+</html>
